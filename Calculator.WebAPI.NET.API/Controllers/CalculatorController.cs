@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Calculator.WebAPI.NET_Core.Controllers
+namespace Calculator.WebAPI.NET.Core.Controllers
 {
     public class CalculatorController : Controller
     {

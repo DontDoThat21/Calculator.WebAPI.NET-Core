@@ -1,4 +1,4 @@
-namespace Calculator.WEBAPI.NET_Core.Tests
+namespace Calculator.WEBAPI.NET.Core.Tests
 {
     public class UnitTest1
     {

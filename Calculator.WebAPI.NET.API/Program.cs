@@ -1,5 +1,5 @@
 
-namespace Calculator.WebAPI.NET_Core
+namespace Calculator.WebAPI.NET.Core
 {
     public class Program
     {

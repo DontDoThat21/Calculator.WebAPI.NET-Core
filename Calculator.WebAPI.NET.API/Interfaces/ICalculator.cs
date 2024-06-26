@@ -1,4 +1,4 @@
-﻿namespace Calculator.WebAPI.NET_Core.Interfaces
+﻿namespace Calculator.WebAPI.NET.Core.Interfaces
 {
     public interface ICalculator
     {
