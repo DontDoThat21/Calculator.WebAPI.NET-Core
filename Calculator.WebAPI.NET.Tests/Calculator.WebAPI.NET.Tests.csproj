@@ -18,6 +18,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Calculator.WebAPI.NET.Core\Calculator.WebAPI.NET.Core.csproj" />
+    <ProjectReference Include="..\Calculator.WebAPI.NET.Infrastructure\Calculator.WebAPI.NET.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
 
