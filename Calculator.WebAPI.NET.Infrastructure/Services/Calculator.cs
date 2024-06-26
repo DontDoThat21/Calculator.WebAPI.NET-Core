@@ -21,6 +21,11 @@ namespace Calculator.WebAPI.NET.Infrastructure.Services
 
         public double PerformCalculation(int firstNumber, int secondNumber, string operation)
         {
+            if (operation == "Divide" && secondNumber == 0)
+            {
+                throw new InvalidOperationException("Division by zero is not allowed.");
+            }
+
             return operation switch
             {
                 "Add" => firstNumber + secondNumber,
