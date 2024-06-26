@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.WebAPI.NET-Core"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.WEBAPI.NET-Core.Tests", "Calculator.WEBAPI.NET-Core.Tests\Calculator.WEBAPI.NET-Core.Tests.csproj", "{8DEDAF45-FB36-460F-B4AC-D33FECCD1ACE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.WebAPI.NET-Infrastructure", "Calculator.WebAPI.NET-Infrastructure\Calculator.WebAPI.NET-Infrastructure.csproj", "{7442ACD4-6ED7-4060-AA3B-50CD86A4E8D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8DEDAF45-FB36-460F-B4AC-D33FECCD1ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DEDAF45-FB36-460F-B4AC-D33FECCD1ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DEDAF45-FB36-460F-B4AC-D33FECCD1ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7442ACD4-6ED7-4060-AA3B-50CD86A4E8D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7442ACD4-6ED7-4060-AA3B-50CD86A4E8D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7442ACD4-6ED7-4060-AA3B-50CD86A4E8D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7442ACD4-6ED7-4060-AA3B-50CD86A4E8D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
