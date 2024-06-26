@@ -1,4 +1,7 @@
 
+using Calculator.WebAPI.NET.Core.Interfaces;
+using Calculator.WebAPI.NET.Infrastructure.Services;
+
 namespace Calculator.WebAPI.NET.Core
 {
     public class Program
@@ -14,6 +17,17 @@ namespace Calculator.WebAPI.NET.Core
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddScoped<ICalculator, Infrastructure.Services.Calculator>();
+            builder.Services.AddScoped<INumberStore, NumberStore>();
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowOrigin",
+                    builder => builder.WithOrigins("http://localhost:4200")
+                                      .AllowAnyHeader()
+                                      .AllowAnyMethod());
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -22,6 +36,8 @@ namespace Calculator.WebAPI.NET.Core
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+
+            app.UseCors("AllowOrigin");
 
             app.UseHttpsRedirection();
 
