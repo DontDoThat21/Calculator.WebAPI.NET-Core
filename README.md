@@ -2,6 +2,7 @@
 This project is a simple calculator API built using modern C# and .NET.
 
 This product includes a RESTful API for a calculator application, providing basic arithmetic operations such as addition, subtraction, multiplication, and division.
+Validation, state-management, and error handling are included.
 
 # Features
 Supports basic arithmetic operations.
