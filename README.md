@@ -10,7 +10,7 @@ Error handling for division by zero.
 RESTful API design.
 
 For the Angular 18 front-end project utilizing this API, see:
-[https://github.com/DontDoThat21/Angular18Calculator]([url](https://github.com/DontDoThat21/Angular18Calculator))
+https://github.com/DontDoThat21/Angular18Calculator
 
 # Technologies Used
 C#
